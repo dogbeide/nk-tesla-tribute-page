@@ -27,6 +27,8 @@ body{
 #img-caption {
     display: block;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 #tribute-info {
@@ -42,6 +44,7 @@ body{
 }
 #tribute-info > footer {
     margin-bottom: 30px;
+    font-weight: bold;
 }
 
 ul {
@@ -49,7 +52,8 @@ ul {
     margin: 0 auto 50px auto;
 }
 li {
-    margin: 15px 0;
+    margin: 16px 0;
+    line-height: 1.4;
 }
 .year {
     font-weight: bold;
