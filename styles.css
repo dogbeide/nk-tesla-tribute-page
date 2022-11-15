@@ -21,11 +21,10 @@ body{
     padding: 10px 25px;
     /* margin: 15px; */
 }
-#img {
-    
+#image {
+    max-width: 100%;
 }
 #img-caption {
-    display: block;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -37,12 +36,12 @@ body{
     flex-direction: column;
     align-items: center;
 }
-#tribute-info > header {
+#tribute-header {
     font-size: 17px;
     font-weight: bold;
     margin: 60px 0 30px 0;
 }
-#tribute-info > footer {
+#tribute-footer {
     margin-bottom: 30px;
     font-weight: bold;
 }
